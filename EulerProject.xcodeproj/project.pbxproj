@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C3174A11A24C3E3009040A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3174A01A24C3E3009040A5 /* main.swift */; };
+		1C3174A91A24C408009040A5 /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3174A81A24C408009040A5 /* Prime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1C31749D1A24C3E3009040A5 /* EulerProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EulerProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3174A01A24C3E3009040A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C3174A81A24C408009040A5 /* Prime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		1C31749F1A24C3E3009040A5 /* EulerProject */ = {
 			isa = PBXGroup;
 			children = (
+				1C3174A71A24C3F3009040A5 /* Libs */,
 				1C3174A01A24C3E3009040A5 /* main.swift */,
 			);
 			path = EulerProject;
+			sourceTree = "<group>";
+		};
+		1C3174A71A24C3F3009040A5 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1C3174A81A24C408009040A5 /* Prime.swift */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3174A11A24C3E3009040A5 /* main.swift in Sources */,
+				1C3174A91A24C408009040A5 /* Prime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
